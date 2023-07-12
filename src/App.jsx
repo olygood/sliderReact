@@ -1,12 +1,8 @@
-import { useState } from 'react';
-
+import { useState } from "react";
+import Slider from "./components/slider";
 
 function App() {
-  return (
-   <div>
-    <p>My slider</p>
-   </div>
-  )
+  return <Slider />;
 }
 
 export default App;
