@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Slider from "./components/slider";
+import Slider from "../src/components/Slider.jsx";
 
 function App() {
   return <Slider />;
